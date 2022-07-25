@@ -1,0 +1,59 @@
+p{
+    margin: 0;
+}
+hr{
+    margin: 0;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    cursor: pointer;
+    color: antiquewhite;
+}
+.profile-me{
+    height: 300px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.icon-logo-container{
+    background-color: white;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    padding:5px;
+}
+
+
+.about-me{
+    font-size: 20px;
+}
+
+
+.project-container{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.project-container:hover{
+    box-shadow: 10px 10px 30px rgb(59, 58, 58);
+    transform: 0.8s;
+}
+
+.project-img{
+    height: 200px;
+}
+
+#project-3{
+    display: none;
+}
+#show-more-btn{
+    display: block;
+}
+#show-less-btn{
+    display: none;
+}
